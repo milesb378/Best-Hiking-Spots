@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--bootstrap CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
@@ -9,6 +11,10 @@
 
     <!--bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <title>Hiking in Amman</title>
 
@@ -17,13 +23,33 @@
             background-color:antiquewhite;
             text-align: center;
         }
+        div {
+            margin-top: 3%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+        }
+        div.col{
+            font-size:xx-large;
+        }
     </style>
 </head>
 <body style="background-color:rgb(169, 169, 169);">
     <h1 style="text-align:center">Best hikes in the Amman area</h1>
-    <p>This is a paragraph. </p>
-    <p>Click <a href="http://google.com">here</a> to visit Google.</p>
-        <a class="btn btn-primary" href="Easy.html" role="button">Look at easy hikes</a>
-        <a class="btn btn-primary" href="Hard.html" role="button">Look at hard hikes</a>
+    <div class="paragraph">
+        <p>Everyone in Jordan knows about Wadi Rum, Petra, Aqaba, the Dead Sea, Jerash and the other famous tourist hotspots. However, there is so much more to Jordan than these few spots. There are wadi hikes all along the dead sea and there are nature reserves that are fun for a getaway weekend. This website will be focusing on short to medium length hikes that can be done in a day.</p> 
+   </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align:center" class="text">
+                Beginner Hikes
+                <a href="Easy.html"><img class="img" src="Easy.jpg" width="350%"></a>
+            </div>
+            <div class="col" style="text-align:center">
+                Advanced Hikes
+                <a href="Hard.html"><img class="img" src="Hard.jpg" width="350%"></a>
+            </div>
+        </div>
+    </div>
+    <p class="attribution">Images are from "<a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/39644204@N06/4279872006">Dana nature reserve, Jordan DEC.2009</a>" by <a target="_blank" rel="noopener noreferrer" href="https://www.flickr.com/photos/39644204@N06">SangHee Kim</a> is licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/2.0/?ref=openverse">CC BY-NC-SA 2.0 <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" style="height: 1em; margin-right: 0.125em; display: inline;"></img></a>. </p>
 </body>
 </html>
